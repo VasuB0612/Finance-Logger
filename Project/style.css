@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(34, 36, 57);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .headContainer {
   width: 100%;
   margin: 0 auto;
@@ -5,20 +10,51 @@
 h1 {
   margin: 40px auto;
   text-align: center;
+  color: #dc9696;
+  font-size: xx-large;
 }
 ul {
   padding: 0;
   list-style-type: none;
 }
 footer {
-  background: #eee;
+  background: #dc9696;
+  max-width: 100%;
   padding: 60px;
   margin-top: 60px;
 }
 form {
   max-width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
   text-align: center;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+  margin: 16px 0 6px;
+}
+
+input,
+select {
+  padding: 6px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+}
+.field {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+}
+button {
+  color: white;
+  border: 0;
+  background: aquamarine;
+  padding: 7px;
+  min-width: 80px;
+  border-radius: 4px;
+}
+button:hover {
+  background: lightgreen;
 }
