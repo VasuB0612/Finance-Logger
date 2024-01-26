@@ -12,23 +12,27 @@
       <ul class="item_list"></ul>
     </div>
     <footer>
-      <form action="">
+      <form>
         <div>
-          <label>Type: </label>
+          <label>Type: </label><br />
           <select id="type">
             <option value="">Invoice</option>
             <option value="">Payment</option>
           </select>
         </div>
         <div class="field">
-          <label>To / From: </label>
+          <label>To / From: </label><br />
           <input type="text" id="to_from" />
         </div>
         <div class="field">
-          <label>Details: </label>
+          <label>Details: </label><br />
           <input type="text" id="details" />
         </div>
-        <div class="field"></div>
+        <div class="field">
+          <label>Amount (€): </label><br />
+          <input type="number" id="amount" />
+        </div>
+        <button>Add</button>
       </form>
     </footer>
   </body>
