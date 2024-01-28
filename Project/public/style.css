@@ -54,7 +54,17 @@ button {
   padding: 7px;
   min-width: 80px;
   border-radius: 4px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 button:hover {
   background: lightgreen;
+}
+a {
+  text-align: center;
+  display: block;
+  color: green;
+  margin-top: 40px;
+  font-size: 0.7em;
+  text-decoration: none;
 }
